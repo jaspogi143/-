@@ -43,8 +43,8 @@ module.exports = {
 \Bot Prefix: ${botPrefix}
 \owner: ${authorName}
 \age : ${ownAge}
-\relationship : ${relationship}
-\boyfriend : ${boyfriend}
+\brelationship : ${relationship}
+\bboyfriend : ${boyfriend}
 \Facebook: ${authorFB}
 \Instagram: ${authorInsta}
 \TikTok: ${tikTok}
