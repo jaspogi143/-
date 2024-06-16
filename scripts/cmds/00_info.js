@@ -15,14 +15,16 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "yazky";
-		const botPrefix = "!";
-		const authorName = "CliffVincent";
+		const botName = "𝗜𝘃𝘆𝗯𝗼𝘁";
+		const botPrefix = "'";
+		const authorName = "𝗜𝘃𝘆 𝗟𝗮𝘂𝗿𝗲𝗻𝘁";
 		const ownAge = "18";
-		const teamName = "Github team";
-		const authorFB = "https://www.facebook.com/swordigo.swordslush";
+		const relationship = "𝗘𝗻𝗴𝗮𝗴𝗲𝗱";
+		const boyfriend = "𝗷𝗮𝘀𝗿𝗲𝗹";
+		const teamName = "𝗠𝗜𝗫𝗜𝗡𝖳𝖤𝖠𝖬";
+		const authorFB = "https://www.facebook.com/profile.php?id=61559145628304";
 		const authorInsta = "Thead469";
-		const tikTok = "tiktok.com/@Cliffthegreat0";
+		const tikTok = "tiktok.com/@Ivy_143";
 		const urls = JSON.parse(fs.readFileSync('cliff.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -41,6 +43,8 @@ module.exports = {
 \Bot Prefix: ${botPrefix}
 \owner: ${authorName}
 \age : ${ownAge}
+\relationship : ${relationship}
+\boyfriend : ${boyfriend}
 \Facebook: ${authorFB}
 \Instagram: ${authorInsta}
 \TikTok: ${tikTok}
