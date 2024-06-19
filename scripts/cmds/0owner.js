@@ -26,7 +26,7 @@ module.exports = {
 				bio: '𝗟𝗼𝘃𝗲 𝗱𝗲𝗲𝗽𝗹𝘆, 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗲 𝗼𝗽𝗲𝗻𝗹𝘆, 𝗮𝗻𝗱 𝗰𝗵𝗲𝗿𝗶𝘀𝗵 𝗲𝗮𝗰𝗵 𝗺𝗼𝗺𝗲𝗻𝘁 𝘁𝗼𝗴𝗲𝘁𝗵𝗲𝗿.'
 			};
 
-			const bold = 'https://i.imgur.com/Ng65ddD.gif';
+			const bold = 'https://i.imgur.com/VdsGj7H.mp4';
 			const tmpFolderPath = path.join(__dirname, 'tmp');
 
 			if (!fs.existsSync(tmpFolderPath)) {
